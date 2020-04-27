@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql5-171b13e27bf-53a5c6c0ce82e5df": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "MySQL - osworks",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "osworks",
+				"url": "jdbc:mysql://localhost:3306/osworks",
+				"home": "C:\\wamp64\\bin\\mysql\\mysql5.7.24",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
