@@ -69,6 +69,7 @@ public class ClienteController {
 			@RequestBody Cliente cliente) {
 		
 		    if(!clienteRepository.existsById(clienteId)) {
+		    	
 		    	return ResponseEntity.notFound().build();
 		    }
 		    

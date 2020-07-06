@@ -16,7 +16,6 @@ public class Problema {
 
 	
 	
-	
 	public static class Campo{
 		private String nome;
 		private String mensagem;
